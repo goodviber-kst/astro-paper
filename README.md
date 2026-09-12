@@ -1,166 +1,90 @@
-# AstroPaper 📄
+# Personal resume & dbt notes
 
-![AstroPaper](public/default-og.jpg)
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
-![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+이 저장소는 [AstroPaper](https://github.com/satnaing/astro-paper)를 포크해 만든 개인 사이트입니다. Vercel과 연결되어 있으므로 `main` 브랜치에 푸시하면 Vercel이 자동으로 새 버전을 배포합니다.
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+## 처음 한 번만 설정하기
 
-Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
+`astro-paper.config.ts`를 열어 아래 항목을 본인 정보로 바꿉니다.
 
-## 🔥 Features
+| 항목 | 설정할 내용 |
+| --- | --- |
+| `site.url` | 실제 Vercel 도메인. 예: `https://my-site.vercel.app` |
+| `site.title`, `site.description` | 사이트 이름과 한 줄 소개 |
+| `site.author`, `site.profile` | 이름과 대표 프로필 URL |
+| `site.lang`, `site.timezone` | 한국어 사이트라면 `ko`, `Asia/Seoul` |
+| `socials` | 사용할 GitHub·LinkedIn·이메일만 남기고 URL 교체 |
+| `features.editPost.url` | 내 포크 저장소의 `.../edit/main/` 주소 |
 
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] static search ([Pagefind](https://pagefind.app/))
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] MDX support
-- [x] collapsible table of contents
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
-- [x] i18n ready
+설정 값에 남아 있는 AstroPaper 예시 URL·계정은 공개 전에 반드시 바꿉니다.
 
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+## 이력서 업데이트
 
-## ✅ Lighthouse Score
+이력서는 [`src/content/pages/about.md`](src/content/pages/about.md)에 있습니다. 대괄호(`[]`) 안의 안내 문구를 지우고 아래 정도만 작성하면 충분합니다.
 
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  </a>
-</p>
+- 한 줄 소개와 연락 방법
+- 핵심 기술 또는 관심 분야
+- 경력·프로젝트: 기간, 역할, 성과 또는 사용 기술
+- 학력·자격·링크(선택)
 
-## 🚀 Project Structure
+이 파일을 저장하면 `/about` 페이지에 반영됩니다. 주민등록번호, 상세 주소, 개인 전화번호처럼 공개할 필요 없는 정보는 넣지 않습니다.
 
-Inside of AstroPaper, you'll see the following folders and files:
+## dbt 컨퍼런스 후기 작성
 
-```bash
-/
-├── public/
-│   ├── pagefind/          # auto-generated on build
-│   ├── favicon.svg
-│   └── default-og.jpg
-├── src/
-│   ├── assets/
-│   │   ├── icons/
-│   │   └── images/
-│   ├── components/
-│   ├── content/
-│   │   ├── pages/
-│   │   │   └── about.md
-│   │   └── posts/
-│   │       └── some-blog-posts.md
-│   ├── i18n/
-│   ├── layouts/
-│   ├── pages/
-│   ├── scripts/
-│   ├── styles/
-│   ├── types/
-│   ├── utils/
-│   ├── config.ts
-│   └── content.config.ts
-├── astro-paper.config.ts  # user-defined configurations
-└── astro.config.ts
-```
+후기는 `src/content/posts/` 아래에 Markdown 파일로 만듭니다. 예를 들어 `src/content/posts/dbt-conference-2026.md`를 만들고 아래 양식을 사용합니다.
 
-All blog posts are stored in the `src/content/posts/` directory. You can organise posts into subdirectories — the subdirectory name becomes part of the post URL.
-
-## 📖 Documentation
-
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
-
-- Configuration - [markdown](src/content/posts/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/posts/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/posts/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/posts/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-## 💻 Tech Stack
-
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma Design File](https://www.figma.com/community/file/1356898632249991861)  
-**Static Search** - [Pagefind](https://pagefind.app/)  
-**Icons** - [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Linting** - [ESLint](https://eslint.org)  
-**Dynamic OG images** - [Satori](https://github.com/vercel/satori) + [Sharp](https://sharp.pixelplumbing.com/) + [Astro Fonts](https://docs.astro.build/en/guides/fonts/)
-
-## 👨🏻‍💻 Running Locally
-
-You can start using this project locally by running the following command in your desired directory:
-
-```bash
-# pnpm
-pnpm create astro@latest --template satnaing/astro-paper
-
-# npm
-npm create astro@latest -- --template satnaing/astro-paper
-
-# yarn
-yarn create astro --template satnaing/astro-paper
-
-# bun
-bun create astro@latest -- --template satnaing/astro-paper
-```
-
-Then start the project by running the following commands:
-
-```bash
-# install dependencies if you haven't done so in the previous step.
-pnpm install
-
-# start running the project
-pnpm dev
-```
-
-## Google Site Verification (optional)
-
-You can add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) by setting `site.googleVerification` in `astro-paper.config.ts`:
-
-```ts file="astro-paper.config.ts"
-export default defineAstroPaperConfig({
-  site: {
-    // ...
-    googleVerification: "your-google-site-verification-value",
-  },
-  // ...
-});
-```
-
-> See [this discussion](https://github.com/satnaing/astro-paper/discussions/334#discussioncomment-10139247) for adding AstroPaper to the Google Search Console.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command          | Action                                                                                                                           |
-| :--------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `pnpm install`   | Installs dependencies                                                                                                            |
-| `pnpm dev`       | Starts local dev server at `localhost:4321`                                                                                      |
-| `pnpm build`     | Type-checks, builds the site, runs Pagefind indexing, and copies the index to `public/pagefind/`                                 |
-| `pnpm preview`   | Preview your build locally, before deploying                                                                                     |
-| `pnpm sync`      | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `pnpm astro ...` | Run CLI commands like `astro add`, `astro check`                                                                                 |
-
-## ✨ Feedback & Suggestions
-
-If you have any suggestions/feedback, you can contact me via [my email](mailto:satnaingdev+astropaper@gmail.com). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2026
-
+```md
+---
+title: "dbt 컨퍼런스 2026 후기"
+description: "컨퍼런스에서 얻은 핵심 인사이트와 적용 계획"
+pubDatetime: 2026-09-12T09:00:00+09:00
+tags:
+  - dbt
+  - conference
+draft: true
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+## 한눈에 보기
+
+- 행사: [행사명 / 장소 / 날짜]
+- 가장 좋았던 세션: [세션명]
+
+## 핵심 인사이트
+
+### [세션 또는 주제]
+
+무엇을 배웠는지, 왜 중요한지, 내 업무에 어떻게 적용할지를 적습니다.
+
+## 다음 행동
+
+- [ ] [실제로 해볼 일]
+```
+
+`title`, `description`, `pubDatetime`은 필수입니다. 초안은 `draft: true`로 두고, 공개할 때 `false`로 바꾸거나 해당 줄을 삭제합니다. 파일명과 하위 폴더 이름은 글 URL의 일부가 됩니다. 이미지가 필요하면 `src/content/posts/<글-폴더>/`에 넣고 본문에서 상대 경로로 참조합니다.
+
+## 발행 전 확인과 배포
+
+```bash
+pnpm install       # 처음 한 번만
+pnpm dev           # http://localhost:4321 에서 미리 보기
+pnpm format:check  # 서식 확인
+pnpm lint          # 코드 검사
+pnpm build         # 타입 검사와 프로덕션 빌드
+```
+
+이력서나 글을 수정한 뒤에는 다음 순서로 진행합니다.
+
+1. `pnpm dev`로 `/about`과 새 글 URL을 확인합니다.
+2. `pnpm format:check && pnpm lint && pnpm build`를 통과시킵니다.
+3. 변경사항을 커밋하고 `main`에 푸시합니다.
+4. Vercel 배포가 완료된 뒤 실제 도메인에서 글·이미지·공유 미리보기를 확인합니다.
+
+## 자주 수정하는 위치
+
+| 목적 | 파일 |
+| --- | --- |
+| 사이트 이름, 도메인, 소셜 링크 | `astro-paper.config.ts` |
+| 이력서 / 소개 | `src/content/pages/about.md` |
+| dbt 컨퍼런스 후기 등 블로그 글 | `src/content/posts/*.md` |
+| 공개 이미지 | `public/` 또는 글 파일 옆 폴더 |
+
+원본 테마의 라이선스와 상세 문서는 [upstream repository](https://github.com/satnaing/astro-paper)를 참고합니다.

@@ -1,37 +1,43 @@
 ---
-title: "About"
-description: "A bit about me and this blog."
+title: "이력서"
+description: "[이름]의 경력과 프로젝트를 소개합니다."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+## 소개
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+**[이름]** — [직무 또는 나를 설명하는 한 문장]
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+[어떤 문제를 해결해 왔는지, 현재 관심 있는 분야는 무엇인지 2~3문장으로 작성합니다.]
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+- Email: [공개해도 되는 이메일]
+- GitHub: [GitHub URL]
+- LinkedIn / Blog: [URL]
 
-## Features
+## 핵심 역량
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+- [기술 또는 전문 분야 1]
+- [기술 또는 전문 분야 2]
+- [기술 또는 전문 분야 3]
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## 경력
 
-and so much more.
+### [회사 또는 조직] · [직무]
 
-## Show your support
+[YYYY.MM] – [현재 또는 YYYY.MM]
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+- [담당한 일과 만든 결과를 구체적으로 작성합니다.]
+- [가능하면 수치, 영향 또는 사용 기술을 함께 적습니다.]
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+## 주요 프로젝트
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
+### [프로젝트 이름]
 
-Kyay zuu! 🙏🏼
+[프로젝트 기간] · [역할] · [링크]
+
+- 문제: [해결하려던 문제]
+- 기여: [내가 한 일]
+- 결과: [성과 또는 배운 점]
+
+## 학력 및 기타
+
+- [학력, 자격증, 발표, 오픈소스 활동 등 공개하고 싶은 정보]
