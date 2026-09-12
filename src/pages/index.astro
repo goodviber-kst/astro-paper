@@ -1,28 +1,21 @@
 ---
 import { getCollection } from "astro:content";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
-import Layout from "@/layouts/Layout.astro";
-import Header from "@/components/Header.astro";
-import Footer from "@/components/Footer.astro";
-import Socials from "@/components/Socials.astro";
+import IconRss from "@/assets/icons/IconRss.svg";
 import Card from "@/components/Card.astro";
-import LinkButton from "@/components/LinkButton.astro";
-import { getSortedPosts } from "@/utils/getSortedPosts";
-import { useTranslations } from "@/i18n";
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import Layout from "@/layouts/Layout.astro";
 import config from "@/config";
-
-const { socials, posts: postsConfig } = config;
+import { getSortedPosts } from "@/utils/getSortedPosts";
 
 const locale = Astro.currentLocale ?? config.site.lang;
-const t = useTranslations(locale);
-
-const posts = await getCollection("posts");
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const posts = getSortedPosts(await getCollection("posts"));
+const featuredPost = posts.find(({ data }) => data.featured);
+const latestPosts = posts.filter(post => post.id !== featuredPost?.id);
 const homePath = getRelativeLocaleUrl(locale, "");
+const postPath = getRelativeLocaleUrl(locale, "posts");
 ---
 
 <Layout>
@@ -31,97 +24,114 @@ const homePath = getRelativeLocaleUrl(locale, "");
     id="main-content"
     data-layout="index"
     data-home-path={homePath}
-    class="app-layout my-1"
+    class="app-layout py-6 sm:py-10"
   >
-    <section id="hero" class="border-border border-b pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
-      </h1>
-      <a
-        target="_blank"
-        href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
-        class="inline-block"
-        aria-label="RSS Feed"
-        title="RSS Feed"
+    <section class="border-border border-b pb-10 sm:pb-14">
+      <p class="text-accent text-sm font-semibold tracking-[0.18em] uppercase">
+        Data · Engineering · Notes
+      </p>
+      <div
+        class="mt-5 grid gap-8 lg:grid-cols-[minmax(0,1fr)_15rem] lg:items-end"
       >
-        <IconRss
-          width={20}
-          height={20}
-          class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p class="mt-2">
-        Read the blog posts or check{" "}
-        <LinkButton
-          class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
+        <div>
+          <h1
+            class="max-w-3xl text-4xl leading-tight font-bold tracking-tight sm:text-6xl"
+          >
+            데이터를 더 명확하게,
+            <br />
+            기술을 더 깊게.
+          </h1>
+          <p class="text-muted-foreground mt-5 max-w-2xl text-lg leading-8">
+            데이터 엔지니어링의 실전 기록과 개발자에게 필요한 기술 흐름을
+            정리합니다. dbt 컨퍼런스에서 얻은 인사이트도 빠짐없이 남깁니다.
+          </p>
+        </div>
+        <a
+          href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
+          class="border-border hover:border-accent hover:text-accent flex items-center gap-2 self-start border-b pb-3 text-sm font-medium transition-colors lg:self-end"
         >
-          README
-        </LinkButton>{" "}
-        for more info.
-      </p>
-      {
-        socials.length > 0 && (
-          <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">
-              {t.home.socialLinks}:
+          <IconRss class="size-4" />
+          RSS로 받아보기
+        </a>
+      </div>
+      <nav aria-label="주제 탐색" class="mt-8 flex flex-wrap gap-2">
+        {
+          ["data-engineering", "dbt", "analytics", "ai", "conference"].map(
+            tag => (
+              <a
+                href={getRelativeLocaleUrl(locale, `tags/${tag}`)}
+                class="border-border hover:border-accent hover:bg-accent hover:text-accent-foreground rounded-full border px-3 py-1.5 text-sm transition-colors"
+              >
+                #{tag}
+              </a>
+            )
+          )
+        }
+      </nav>
+    </section>
+
+    {
+      featuredPost ? (
+        <section class="border-border border-b py-10 sm:py-14">
+          <div class="mb-5 flex items-center justify-between gap-4">
+            <div>
+              <p class="text-accent text-sm font-semibold tracking-[0.15em] uppercase">
+                Editor’s pick
+              </p>
+              <h2 class="mt-1 text-2xl font-semibold">이번 주 추천 글</h2>
             </div>
-            <Socials />
+          </div>
+          <ul class="border-border bg-muted/30 border px-5 py-2 sm:px-8">
+            <Card variant="h2" {...featuredPost} />
+          </ul>
+        </section>
+      ) : (
+        <section class="border-border border-b py-10 sm:py-14">
+          <p class="text-accent text-sm font-semibold tracking-[0.15em] uppercase">
+            Coming soon
+          </p>
+          <h2 class="mt-2 text-2xl font-semibold">
+            첫 번째 기록을 준비하고 있습니다.
+          </h2>
+          <p class="text-muted-foreground mt-3 leading-7">
+            dbt 컨퍼런스 후기와 데이터 엔지니어링 글이 곧 올라옵니다.
+          </p>
+        </section>
+      )
+    }
+
+    <section class="py-10 sm:py-14">
+      <div class="mb-6 flex items-end justify-between gap-4">
+        <div>
+          <p
+            class="text-accent text-sm font-semibold tracking-[0.15em] uppercase"
+          >
+            Latest notes
+          </p>
+          <h2 class="mt-1 text-2xl font-semibold">최신 글</h2>
+        </div>
+        <a
+          href={postPath}
+          class="hover:text-accent text-sm font-medium underline underline-offset-4"
+        >
+          전체 글 보기 <IconArrowRight class="inline-block size-4" />
+        </a>
+      </div>
+      {
+        latestPosts.length > 0 ? (
+          <ul class="divide-border divide-y border-y">
+            {latestPosts.slice(0, 6).map(post => (
+              <Card variant="h3" {...post} />
+            ))}
+          </ul>
+        ) : (
+          <div class="border-border text-muted-foreground border-y py-8">
+            아직 공개된 글이 없습니다. 첫 글은 <code>src/content/posts/</code>에
+            Markdown 파일로 추가하세요.
           </div>
         )
       }
     </section>
-
-    {
-      featuredPosts.length > 0 && (
-        <section
-          id="featured"
-          class:list={[
-            "pt-12 pb-6",
-            { "border-border border-b": recentPosts.length > 0 },
-          ]}
-        >
-          <h2 class="text-2xl font-semibold tracking-wide">
-            {t.home.featured}
-          </h2>
-          <ul>
-            {featuredPosts.map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
-        </section>
-      )
-    }
-
-    {
-      recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">
-            {t.home.recentPosts}
-          </h2>
-          <ul>
-            {recentPosts.slice(0, postsConfig.perIndex).map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
-        </section>
-      )
-    }
-
-    <div class="my-8 text-center">
-      <LinkButton href={getRelativeLocaleUrl(locale, "posts")}>
-        {t.home.allPosts}
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
-      </LinkButton>
-    </div>
   </main>
   <Footer />
 </Layout>

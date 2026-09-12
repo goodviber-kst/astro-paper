@@ -6,14 +6,14 @@
 
 `astro-paper.config.ts`를 열어 아래 항목을 본인 정보로 바꿉니다.
 
-| 항목 | 설정할 내용 |
-| --- | --- |
-| `site.url` | 실제 Vercel 도메인. 예: `https://my-site.vercel.app` |
-| `site.title`, `site.description` | 사이트 이름과 한 줄 소개 |
-| `site.author`, `site.profile` | 이름과 대표 프로필 URL |
-| `site.lang`, `site.timezone` | 한국어 사이트라면 `ko`, `Asia/Seoul` |
-| `socials` | 사용할 GitHub·LinkedIn·이메일만 남기고 URL 교체 |
-| `features.editPost.url` | 내 포크 저장소의 `.../edit/main/` 주소 |
+| 항목                             | 설정할 내용                                          |
+| -------------------------------- | ---------------------------------------------------- |
+| `site.url`                       | 실제 Vercel 도메인. 예: `https://my-site.vercel.app` |
+| `site.title`, `site.description` | 사이트 이름과 한 줄 소개                             |
+| `site.author`, `site.profile`    | 이름과 대표 프로필 URL                               |
+| `site.lang`, `site.timezone`     | 한국어 사이트라면 `ko`, `Asia/Seoul`                 |
+| `socials`                        | 사용할 GitHub·LinkedIn·이메일만 남기고 URL 교체      |
+| `features.editPost.url`          | 내 포크 저장소의 `.../edit/main/` 주소               |
 
 설정 값에 남아 있는 AstroPaper 예시 URL·계정은 공개 전에 반드시 바꿉니다.
 
@@ -80,11 +80,11 @@ pnpm build         # 타입 검사와 프로덕션 빌드
 
 ## 자주 수정하는 위치
 
-| 목적 | 파일 |
-| --- | --- |
-| 사이트 이름, 도메인, 소셜 링크 | `astro-paper.config.ts` |
-| 이력서 / 소개 | `src/content/pages/about.md` |
-| dbt 컨퍼런스 후기 등 블로그 글 | `src/content/posts/*.md` |
-| 공개 이미지 | `public/` 또는 글 파일 옆 폴더 |
+| 목적                           | 파일                           |
+| ------------------------------ | ------------------------------ |
+| 사이트 이름, 도메인, 소셜 링크 | `astro-paper.config.ts`        |
+| 이력서 / 소개                  | `src/content/pages/about.md`   |
+| dbt 컨퍼런스 후기 등 블로그 글 | `src/content/posts/*.md`       |
+| 공개 이미지                    | `public/` 또는 글 파일 옆 폴더 |
 
 원본 테마의 라이선스와 상세 문서는 [upstream repository](https://github.com/satnaing/astro-paper)를 참고합니다.
