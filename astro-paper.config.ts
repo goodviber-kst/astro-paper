@@ -6,7 +6,7 @@ export default defineAstroPaperConfig({
     title: "Jude",
     description: "데이터 엔지니어링, 개발 기술 트렌드, dbt 컨퍼런스 기록.",
     author: "Jude",
-    ogImage: "jude-data-blog.png",
+    ogImage: "jude-share-v1.png",
     lang: "ko",
     timezone: "Asia/Seoul",
     dir: "ltr",

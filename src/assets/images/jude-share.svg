@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#f8faf5"/>
+      <stop offset="1" stop-color="#e6ede2"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#38634b" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1140" cy="30" r="260" fill="none" stroke="#38634b" stroke-opacity=".09" stroke-width="60"/>
+  <circle cx="45" cy="630" r="190" fill="none" stroke="#38634b" stroke-opacity=".06" stroke-width="42"/>
+  <rect x="52" y="52" width="1096" height="526" rx="24" fill="#fafbf8" fill-opacity=".8" stroke="#ced9c9"/>
+  <rect x="552" y="210" width="96" height="6" rx="3" fill="#38634b"/>
+  <text x="600" y="337" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-4" fill="#243e2e">Jude Data Blog</text>
+  <circle cx="600" cy="397" r="5" fill="#7c9a6f"/>
+</svg>
