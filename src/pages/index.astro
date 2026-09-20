@@ -9,7 +9,7 @@ import Layout from "@/layouts/Layout.astro";
 import config from "@/config";
 import { getSortedPosts } from "@/utils/getSortedPosts";
 import { getPostUrl } from "@/utils/getPostPaths";
-import vegas from "@/assets/blog/dbt-summit-2026-01-departure-arrival/dbt-summit-2026-402.jpeg";
+import vegas from "@/assets/blog/dbt-summit-2026-01-departure-arrival/dbt-summit-2026-086.jpeg";
 
 const locale = Astro.currentLocale ?? config.site.lang;
 const posts = getSortedPosts(await getCollection("posts"));
@@ -62,7 +62,7 @@ const summitPosts = posts.filter(post =>
                 <div class="featured-photo">
                   <Image
                     src={vegas}
-                    alt="분수 너머로 보이는 라스베이거스 에펠탑의 야경"
+                    alt="분수와 대관람차, 스피어가 보이는 라스베이거스 야경"
                     widths={[480, 800, 1200]}
                     sizes="(max-width: 760px) 100vw, 800px"
                     loading="eager"
