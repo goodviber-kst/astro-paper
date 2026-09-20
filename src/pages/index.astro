@@ -1,138 +1,148 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import Card from "@/components/Card.astro";
 import Footer from "@/components/Footer.astro";
 import Header from "@/components/Header.astro";
 import Layout from "@/layouts/Layout.astro";
 import config from "@/config";
 import { getSortedPosts } from "@/utils/getSortedPosts";
+import { getPostUrl } from "@/utils/getPostPaths";
+import vegas from "@/assets/blog/dbt-summit-2026-01-departure-arrival/dbt-summit-2026-402.jpeg";
 
 const locale = Astro.currentLocale ?? config.site.lang;
 const posts = getSortedPosts(await getCollection("posts"));
-const featuredPost = posts.find(({ data }) => data.featured);
-const latestPosts = posts.filter(post => post.id !== featuredPost?.id);
-const homePath = getRelativeLocaleUrl(locale, "");
-const postPath = getRelativeLocaleUrl(locale, "posts");
+const featured = posts.find(post => post.data.featured) ?? posts[0];
+const url = (path: string) => getRelativeLocaleUrl(locale, path);
+const summitPosts = posts.filter(post =>
+  post.data.tags.includes("dbt-summit-2026")
+);
 ---
 
 <Layout>
   <Header />
-  <main
-    id="main-content"
-    data-layout="index"
-    data-home-path={homePath}
-    class="app-layout py-6 sm:py-10"
-  >
-    <section class="border-border border-b pb-10 sm:pb-14">
-      <p class="text-accent text-sm font-semibold tracking-[0.18em] uppercase">
-        Data · Engineering · Notes
-      </p>
-      <div class="mt-5">
-        <div>
-          <h1
-            class="max-w-3xl text-4xl leading-tight font-bold tracking-tight sm:text-6xl"
-          >
-            데이터를 더 명확하게,
-            <br />
-            기술을 더 깊게.
-          </h1>
-          <p class="text-muted-foreground mt-5 max-w-2xl text-lg leading-8">
-            데이터 엔지니어링의 실전 기록과 개발자에게 필요한 기술 흐름을
-            정리합니다. dbt 컨퍼런스에서 얻은 인사이트도 빠짐없이 남깁니다.
-          </p>
-        </div>
-      </div>
-      <nav aria-label="주제 탐색" class="mt-8 flex flex-wrap gap-2">
+  <main id="main-content" class="journal-layout" data-home-path={url("")}>
+    <aside class="journal-sidebar" aria-label="블로그 탐색">
+      <a class="sidebar-search" href={url("search")}
+        ><span>글 검색하기</span><span aria-hidden="true">⌕</span></a
+      >
+      <nav aria-label="글 카테고리">
+        <h2 class="journal-label">글 카테고리</h2>
         {
-          ["data-engineering", "dbt", "analytics", "ai", "conference"].map(
-            tag => (
-              <a
-                href={getRelativeLocaleUrl(locale, `tags/${tag}`)}
-                class="border-border hover:border-accent hover:bg-accent hover:text-accent-foreground rounded-full border px-3 py-1.5 text-sm transition-colors"
-              >
-                #{tag}
-              </a>
-            )
+          summitPosts.length > 0 && (
+            <a class="sidebar-link" href={url("tags/dbt-summit-2026")}>
+              <span>dbt Summit 2026</span>
+              <span>{summitPosts.length}</span>
+            </a>
           )
         }
       </nav>
-    </section>
+    </aside>
 
-    {
-      featuredPost ? (
-        <section class="border-border border-b py-10 sm:py-14">
-          <div class="mb-5 flex items-center justify-between gap-4">
-            <div>
-              <p class="text-accent text-sm font-semibold tracking-[0.15em] uppercase">
-                Editor’s pick
-              </p>
-              <h2 class="mt-1 text-2xl font-semibold">이번 주 추천 글</h2>
-            </div>
-          </div>
-          <ul class="border-border bg-muted/30 border px-5 py-2 sm:px-8">
-            <Card variant="h2" {...featuredPost} />
-          </ul>
-        </section>
-      ) : (
-        <section class="border-border border-b py-10 sm:py-14">
-          <p class="text-accent text-sm font-semibold tracking-[0.15em] uppercase">
-            Coming soon
-          </p>
-          <h2 class="mt-2 text-2xl font-semibold">
-            첫 번째 기록을 준비하고 있습니다.
-          </h2>
-          <p class="text-muted-foreground mt-3 leading-7">
-            dbt 컨퍼런스 후기와 데이터 엔지니어링 글이 곧 올라옵니다.
-          </p>
-        </section>
-      )
-    }
+    <div class="journal-content">
+      <h1 class="sr-only">블로그 글</h1>
 
-    <section class="py-10 sm:py-14">
-      <div class="mb-6 flex items-end justify-between gap-4">
-        <div>
-          <p
-            class="text-accent text-sm font-semibold tracking-[0.15em] uppercase"
-          >
-            Latest notes
-          </p>
-          <h2 class="mt-1 text-2xl font-semibold">최신 글</h2>
-        </div>
-        <a
-          href={postPath}
-          class="hover:text-accent text-sm font-medium underline underline-offset-4"
-        >
-          전체 글 보기 <IconArrowRight class="inline-block size-4" />
-        </a>
-      </div>
       {
-        latestPosts.length > 0 ? (
-          <ul class="divide-border divide-y border-y">
-            {latestPosts.slice(0, 6).map(post => (
-              <Card variant="h3" {...post} />
-            ))}
-          </ul>
-        ) : (
-          <div class="border-border text-muted-foreground border-y py-8">
-            아직 공개된 글이 없습니다. 첫 글은 <code>src/content/posts/</code>에
-            Markdown 파일로 추가하세요.
-          </div>
+        featured && (
+          <section class="featured-section" aria-labelledby="featured-heading">
+            <div class="section-caption">
+              <>
+                <h2 id="featured-heading" class="journal-label">
+                  FEATURED STORY
+                </h2>
+                <span>먼저 읽어보세요</span>
+              </>
+            </div>
+            <a
+              class="featured-story"
+              href={getPostUrl(featured.id, featured.filePath, locale)}
+            >
+              {featured.id === "dbt-summit-2026-01-departure-arrival" && (
+                <div class="featured-photo">
+                  <Image
+                    src={vegas}
+                    alt="분수 너머로 보이는 라스베이거스 에펠탑의 야경"
+                    widths={[480, 800, 1200]}
+                    sizes="(max-width: 760px) 100vw, 800px"
+                    loading="eager"
+                    fetchpriority="high"
+                  />
+                  <span class="photo-location">LAS VEGAS, NEVADA ↗</span>
+                </div>
+              )}
+              <div class="featured-copy">
+                <div class="story-meta">
+                  <>
+                    <span>
+                      {featured.data.tags.includes("dbt-summit-2026")
+                        ? "DBT SUMMIT 2026 · 출장 기록"
+                        : "추천 기록"}
+                    </span>
+                    <time datetime={featured.data.pubDatetime.toISOString()}>
+                      {featured.data.pubDatetime.toLocaleDateString("ko-KR", {
+                        timeZone: config.site.timezone,
+                      })}
+                    </time>
+                  </>
+                </div>
+                <h3>{featured.data.title}</h3>
+                <p>{featured.data.description}</p>
+                <span class="read-story">
+                  이야기 읽기 <span aria-hidden="true">↗</span>
+                </span>
+              </div>
+            </a>
+          </section>
         )
       }
-    </section>
+
+      <section class="journal-latest" aria-labelledby="latest-heading">
+        <div class="section-caption">
+          <h2 id="latest-heading">
+            최근 기록 <span class="post-count">{posts.length}</span>
+          </h2><a href={url("posts")}>전체 보기 ↗</a>
+        </div>
+        {
+          posts.length ? (
+            <ul>
+              {posts.slice(0, 6).map(post => (
+                <Card variant="h3" {...post} />
+              ))}
+            </ul>
+          ) : (
+            <p class="empty-note">
+              첫 번째 기록을 준비하고 있습니다. 곧 이곳에서 만나요.
+            </p>
+          )
+        }
+      </section>
+
+      {
+        summitPosts.length > 0 && (
+          <a class="series-banner" href={url("tags/dbt-summit-2026")}>
+            <div>
+              <>
+                <span class="journal-label">FIELD NOTES / 2026</span>
+                <h2>dbt Summit, 그곳에서의 기록</h2>
+                <p>출국부터 컨퍼런스, 돌아와 남기는 생각까지.</p>
+              </>
+            </div>
+            <span class="series-arrow" aria-hidden="true">
+              ↗
+            </span>
+          </a>
+        )
+      }
+    </div>
   </main>
   <Footer />
 </Layout>
 
 <script>
   document.addEventListener("astro:page-load", () => {
-    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
-      ?.dataset;
-    const baseRoot = import.meta.env.BASE_URL.replace(/\/?$/, "/");
-    if (indexLayout?.layout) {
-      sessionStorage.setItem("backUrl", indexLayout.homePath ?? baseRoot);
-    }
+    const path =
+      document.querySelector<HTMLElement>("[data-home-path]")?.dataset.homePath;
+    if (path) sessionStorage.setItem("backUrl", path);
   });
 </script>

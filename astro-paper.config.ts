@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://jude-data-blog.vercel.app/",
-    title: "Jude Data Blog",
+    title: "Jude",
     description: "데이터 엔지니어링, 개발 기술 트렌드, dbt 컨퍼런스 기록.",
     author: "Jude",
     ogImage: "jude-data-blog.png",
@@ -22,8 +22,7 @@ export default defineAstroPaperConfig({
     showArchives: false,
     showBackButton: true,
     editPost: {
-      enabled: true,
-      url: "https://github.com/goodviber-kst/astro-paper/edit/main/",
+      enabled: false,
     },
     search: "pagefind",
   },

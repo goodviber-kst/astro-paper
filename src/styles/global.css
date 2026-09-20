@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "./theme.css";
 @import "./typography.css";
+@import "./journal.css";
 @import "rehype-callouts/theme/obsidian";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
@@ -31,7 +32,7 @@
 }
 
 @utility active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-8;
+  @apply text-accent underline decoration-2 underline-offset-8;
 }
 
 :target {

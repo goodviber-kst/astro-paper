@@ -43,7 +43,7 @@ const isActive = (path: string) => {
 </a>
 
 <header
-  class="app-layout flex flex-col items-center justify-between sm:flex-row"
+  class="app-layout journal-header flex flex-col items-center justify-between sm:flex-row"
 >
   <div
     class="border-border bg-background relative flex w-full items-baseline justify-between border-b py-4 sm:items-center sm:py-6"
@@ -52,7 +52,7 @@ const isActive = (path: string) => {
       href={getRelativeLocaleUrl(locale, "")}
       class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
     >
-      {site.title}
+      <span class="brand-mark" aria-hidden="true">j.</span>{site.title}
     </a>
     <nav
       id="nav-menu"
@@ -79,7 +79,7 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "posts")}
             class:list={{ "active-nav": isActive("/posts") }}
           >
-            {t.nav.posts}
+            POST
           </a>
         </li>
         <li class="col-span-2">
@@ -87,15 +87,7 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "tags")}
             class:list={{ "active-nav": isActive("/tags") }}
           >
-            {t.nav.tags}
-          </a>
-        </li>
-        <li class="col-span-2">
-          <a
-            href={getRelativeLocaleUrl(locale, "about")}
-            class:list={{ "active-nav": isActive("/about") }}
-          >
-            {t.nav.about}
+            Tag
           </a>
         </li>
         {
