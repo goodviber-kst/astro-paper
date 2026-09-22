@@ -59,6 +59,22 @@ interface FeaturesConfig {
    * Set to false to disable search entirely.
    */
   search?: "pagefind" | false;
+  /** Comment system shown on post detail pages. */
+  comments?:
+    | {
+        enabled: true;
+        provider: "giscus";
+        repo: string;
+        repoId: string;
+        category: string;
+        categoryId: string;
+        mapping?: "pathname" | "url" | "title" | "og:title" | "specific";
+        strict?: boolean;
+        reactionsEnabled?: boolean;
+        inputPosition?: "top" | "bottom";
+        lang?: string;
+      }
+    | { enabled: false };
 }
 
 interface SocialLink {

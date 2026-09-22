@@ -116,4 +116,12 @@ git push origin main
 | dbt 컨퍼런스 후기 등 블로그 글 | `src/content/posts/*.md`       |
 | 공개 이미지                    | `public/` 또는 글 파일 옆 폴더 |
 
+## 댓글 기능
+
+댓글은 [Giscus](https://giscus.app/)를 사용합니다. GitHub Discussions의 `General` 카테고리에 글 URL 기준으로 댓글 스레드가 생성됩니다.
+
+설정은 `astro-paper.config.ts`의 `features.comments`에서 관리합니다. 저장소를 바꾸거나 Discussions 카테고리를 바꾸면 `repo`, `repoId`, `category`, `categoryId` 값을 함께 수정해야 합니다.
+
+Giscus가 실제 사이트에서 동작하려면 GitHub 저장소에 Discussions가 켜져 있어야 하고, 해당 저장소에 Giscus GitHub App이 설치되어 있어야 합니다.
+
 원본 테마의 라이선스와 상세 문서는 [upstream repository](https://github.com/satnaing/astro-paper)를 참고합니다.
