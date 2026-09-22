@@ -1,0 +1,3962 @@
+{
+  "source": "https://www.getdbt.com/dbt-summit/agenda",
+  "retrievedAt": "2026-09-21T03:32:29.460Z",
+  "sessions": [
+    {
+      "id": "d00f1a55-a033-4cee-b8d9-300e8a4810f7",
+      "title": "{SOLD OUT} Becoming a dbt Architect",
+      "start": "2026-09-15T15:30:00.000Z",
+      "end": "2026-09-15T19:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "3999b762-0b48-496d-9019-b3f7b124c78f",
+      "title": "{SOLD OUT} Mastering data quality with dbt",
+      "start": "2026-09-15T16:30:00.000Z",
+      "end": "2026-09-15T18:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "c98c97bb-56e8-45e3-a8f2-7fceb2b08b96",
+      "title": "{SOLD OUT} Operationalize cost visibility in dbt",
+      "start": "2026-09-15T16:30:00.000Z",
+      "end": "2026-09-15T18:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "5df0a80a-2042-4c2f-9490-f746b97274e1",
+      "title": "{SOLD OUT} Getting started with dbt",
+      "start": "2026-09-15T19:30:00.000Z",
+      "end": "2026-09-15T23:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "055e9188-75ed-4e40-b338-6268b71e5a3f",
+      "title": "{SOLD OUT} Governed & scalable AI-assisted analytics with dbt",
+      "start": "2026-09-15T20:30:00.000Z",
+      "end": "2026-09-15T22:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "8e62c613-94ad-4878-88bd-df4610c65f78",
+      "title": "{SOLD OUT} Certification",
+      "start": "2026-09-15T20:30:00.000Z",
+      "end": "2026-09-15T23:00:00.000Z",
+      "type": "Certification add-on",
+      "customFields": []
+    },
+    {
+      "id": "cc834014-0baa-4fc6-867f-ced9dab36e9c",
+      "title": "{SOLD OUT} Upgrade to dbt v2",
+      "start": "2026-09-15T20:30:00.000Z",
+      "end": "2026-09-15T22:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "1369b5d3-2c90-49ea-9886-44bb0a673c7e",
+      "title": "Summit Springboard",
+      "start": "2026-09-15T23:30:00.000Z",
+      "end": "2026-09-16T00:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": []
+    },
+    {
+      "id": "22c292e3-2307-4fd0-bf50-c30badc4b156",
+      "title": "Welcome reception",
+      "start": "2026-09-16T00:30:00.000Z",
+      "end": "2026-09-16T02:30:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67bedcf5-4958-4119-bfed-b8fe60fe4dc6",
+      "title": "Everyone's a winner - Welcome Party After Party with Prefect",
+      "start": "2026-09-16T03:00:00.000Z",
+      "end": "2026-09-16T06:00:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event",
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc133a73-1145-4d43-a1a1-2024629f78b1",
+      "title": "Fun run and walk with Sigma",
+      "start": "2026-09-16T13:00:00.000Z",
+      "end": "2026-09-16T14:30:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2e6d1aa8-c2d6-4d33-9f00-8c4e0825037a",
+      "title": "Breakfast",
+      "start": "2026-09-16T14:30:00.000Z",
+      "end": "2026-09-16T15:30:00.000Z",
+      "type": "Meals",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Meals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "416201fa-3d83-48d3-af4d-d1e1e4127583",
+      "title": "Keynote: Level Up",
+      "start": "2026-09-16T16:00:00.000Z",
+      "end": "2026-09-16T17:15:00.000Z",
+      "type": "Keynote",
+      "customFields": []
+    },
+    {
+      "id": "57fa3bc5-9b96-4d80-b8a6-46cafb174b0c",
+      "title": "{SOLD OUT} Certification",
+      "start": "2026-09-16T17:45:00.000Z",
+      "end": "2026-09-16T20:00:00.000Z",
+      "type": "Certification add-on",
+      "customFields": []
+    },
+    {
+      "id": "0e135df8-b53c-49d1-bc34-30222c3ed7ae",
+      "title": "From 72 minutes to 5: how one environment variable powers two dbt pipelines",
+      "start": "2026-09-16T18:00:00.000Z",
+      "end": "2026-09-16T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4f3a7b17-a275-436b-855e-ebc659c1a549",
+      "title": "From hard lessons to AI-ready analytics: Fanatics’ journey with dbt and Snowflake",
+      "start": "2026-09-16T18:00:00.000Z",
+      "end": "2026-09-16T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57ba4170-355c-4efe-af38-be3c7da182ee",
+      "title": "No drift allowed: LangChain's context playbook with Hex",
+      "start": "2026-09-16T18:00:00.000Z",
+      "end": "2026-09-16T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6f3a98ed-aea8-49a4-b468-fa7f47fbe25e",
+      "title": "YAML doesn't know why: building the business context your agents are missing",
+      "start": "2026-09-16T18:00:00.000Z",
+      "end": "2026-09-16T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "929915d9-e419-46a1-9c65-2e87d0d8d6b6",
+      "title": "The semantic layer is dead. Long live the semantic layer!",
+      "start": "2026-09-16T18:00:00.000Z",
+      "end": "2026-09-16T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7a2c893d-8ea6-4cd3-bfdb-3ccd5811c98b",
+      "title": "Data for everyone 360: Building empathy and alignment across the data stack",
+      "start": "2026-09-16T18:15:00.000Z",
+      "end": "2026-09-16T19:15:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c3329441-8817-4dc8-83f4-a1a62c8d252b",
+      "title": "Accelerating and optimizing your deployment with dbt v2 and dbt State",
+      "start": "2026-09-16T18:15:00.000Z",
+      "end": "2026-09-16T19:45:00.000Z",
+      "type": "Hands-on lab",
+      "customFields": []
+    },
+    {
+      "id": "cc3f2910-fac1-4e94-9219-f0252cf4ce18",
+      "title": "How to build a successful data career",
+      "start": "2026-09-16T18:15:00.000Z",
+      "end": "2026-09-16T19:15:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d39ae8a1-d583-4eb3-abb0-8576376d77d3",
+      "title": "Your dbt models deserve better data",
+      "start": "2026-09-16T18:30:00.000Z",
+      "end": "2026-09-16T18:45:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defc653a-6c7e-43c4-b7b9-a70680bf33a3",
+      "title": "Lunch",
+      "start": "2026-09-16T18:30:00.000Z",
+      "end": "2026-09-16T20:30:00.000Z",
+      "type": "Meals",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Meals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1dc2a2f0-e3ee-494e-a7ec-5d6723e51806",
+      "title": "A practitioner's guide to federated dbt Mesh at scale with Data Project Factory",
+      "start": "2026-09-16T19:00:00.000Z",
+      "end": "2026-09-16T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2a5da8a3-c834-467f-ad10-e0ca310400d2",
+      "title": "The next wave of data infrastructure is in the Lake",
+      "start": "2026-09-16T19:00:00.000Z",
+      "end": "2026-09-16T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6d100b7a-d8c1-4a13-834f-dd2c7ea243cf",
+      "title": "Ship AI agents like tables: dbt materializations for Snowflake CoWork",
+      "start": "2026-09-16T19:00:00.000Z",
+      "end": "2026-09-16T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries",
+            "Retail",
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ae31313f-6028-4d56-ab04-d61432143aea",
+      "title": "How to build governed agentic analytics on Amazon Redshift with the dbt Semantic Layer",
+      "start": "2026-09-16T19:00:00.000Z",
+      "end": "2026-09-16T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d6429537-afec-4b2c-aee7-6990ea6e04a9",
+      "title": "Testing, 1, 2, 3: Catching silent data failures beyond dbt tests",
+      "start": "2026-09-16T19:00:00.000Z",
+      "end": "2026-09-16T19:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d71a3e60-ef5b-4179-b43a-6495c6f743aa",
+      "title": "Dismantling the vault: scaling to a data mesh during a 5x merger",
+      "start": "2026-09-16T19:00:00.000Z",
+      "end": "2026-09-16T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a7ad6dd2-7804-4031-bd9d-ee7449297d24",
+      "title": "Teaching dbt Wizard to write code like your team",
+      "start": "2026-09-16T19:30:00.000Z",
+      "end": "2026-09-16T19:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "AI and agentic analytics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7fce18e8-4bcf-4ac1-8146-b7679f51a4f5",
+      "title": "dbt+Fabric: analytics engineering at enterprise scale",
+      "start": "2026-09-16T20:00:00.000Z",
+      "end": "2026-09-16T20:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "044293ff-695c-43e3-8c60-421e3b24670e",
+      "title": "Open source tea leaves: Reading Iceberg’s proposed future",
+      "start": "2026-09-16T20:15:00.000Z",
+      "end": "2026-09-16T21:15:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0e3fa40a-9508-461d-a258-b5439c5df2ed",
+      "title": "How to have ideas",
+      "start": "2026-09-16T20:15:00.000Z",
+      "end": "2026-09-16T20:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6cb241ba-904d-4d14-ac92-f32bdf2e1498",
+      "title": "Sweetwater's proactive data observability playbook with Datadog",
+      "start": "2026-09-16T20:15:00.000Z",
+      "end": "2026-09-16T20:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Other"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7903a885-597b-4c3a-9dd0-025ca57031b8",
+      "title": "A nonprofit's journey: we walked so dbt could run",
+      "start": "2026-09-16T20:15:00.000Z",
+      "end": "2026-09-16T20:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Other"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a633e5f4-765a-471e-ac06-ae358246102f",
+      "title": "Before the agents: what self-serve analytics actually needs",
+      "start": "2026-09-16T20:15:00.000Z",
+      "end": "2026-09-16T20:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Business leaders and executives",
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bbf962e0-5b5c-4393-a7fc-bae88802674a",
+      "title": "Standardizing insights with the dbt Semantic Layer",
+      "start": "2026-09-16T20:15:00.000Z",
+      "end": "2026-09-16T21:45:00.000Z",
+      "type": "Hands-on lab",
+      "customFields": []
+    },
+    {
+      "id": "dfd2cd52-017b-400f-a2d4-6416c0c49588",
+      "title": "How WHOOP bridges dbt models and Snowflake semantic views",
+      "start": "2026-09-16T20:15:00.000Z",
+      "end": "2026-09-16T20:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f4e7421e-b511-426e-ad9e-4e6c8c3faef7",
+      "title": "Your dbt tests passed. Why did the metric still move? Making semantic stability a platform guarantee",
+      "start": "2026-09-16T20:30:00.000Z",
+      "end": "2026-09-16T20:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1a4aefde-8439-49d0-a532-e6ff2a888d2d",
+      "title": "Beyond vibe governance: keeping sensitive data out of your agent's context window",
+      "start": "2026-09-16T21:00:00.000Z",
+      "end": "2026-09-16T21:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Practitioners at the edge"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0d8ef33d-8ee1-4763-9e8b-c0e8e4fecd66",
+      "title": "SQL-first AI: bringing BigQuery AI into your dbt project",
+      "start": "2026-09-16T21:15:00.000Z",
+      "end": "2026-09-16T21:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32ade5fc-32fb-446b-b975-2f207ba91ec4",
+      "title": "Open Data Infrastructure in practice: unlock your dbt projects with Apache Iceberg and mesh",
+      "start": "2026-09-16T21:15:00.000Z",
+      "end": "2026-09-16T21:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4be63d2d-d6be-4b3a-955c-52526985d000",
+      "title": "{SOLD OUT} Certification",
+      "start": "2026-09-16T21:15:00.000Z",
+      "end": "2026-09-16T23:45:00.000Z",
+      "type": "Certification add-on",
+      "customFields": []
+    },
+    {
+      "id": "532b51ff-3851-413c-a753-a49ad326ed43",
+      "title": "How Fanatics manages dbt metrics with Snowflake CoCo for natural language analytics",
+      "start": "2026-09-16T21:15:00.000Z",
+      "end": "2026-09-16T21:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7d7ed638-aeb6-4188-8f7a-4bc1388dbcda",
+      "title": "AI-powered data development: How agentic SDLC & dbt-MCP transformed our data engineering workflow",
+      "start": "2026-09-16T21:15:00.000Z",
+      "end": "2026-09-16T21:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f966e4bd-e08c-4173-8e29-6a797415f42a",
+      "title": "From dbt Core to Fusion: How CarGurus unlocked dbt State and AI at scale",
+      "start": "2026-09-16T21:15:00.000Z",
+      "end": "2026-09-16T21:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Winning with dbt v2"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5e14bda4-d3ef-4836-b443-16cf9a2cb89d",
+      "title": "In the weeds of dbt State",
+      "start": "2026-09-16T21:30:00.000Z",
+      "end": "2026-09-16T21:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt product"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c8f3505e-d66f-4c55-803b-4ddfb5fa20da",
+      "title": "Chart clinic: live dashboard teardowns & rebuilds",
+      "start": "2026-09-16T21:30:00.000Z",
+      "end": "2026-09-16T22:30:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f3bc39cb-664f-4b9e-b5e2-78bf687d4ab4",
+      "title": "Agents, MCPs and buzzword fatigue: what AI actually changes for analytics engineers",
+      "start": "2026-09-16T21:45:00.000Z",
+      "end": "2026-09-16T22:45:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "AI and agentic analytics"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9f766ae6-82b0-40b2-8077-06202464f7aa",
+      "title": "What AI agents get wrong, and how semantics fixes it",
+      "start": "2026-09-16T22:00:00.000Z",
+      "end": "2026-09-16T22:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10c6b15d-39a2-41dc-a103-97ac99d5c183",
+      "title": "From AI experiment to production: how Okta governs context for agents at scale",
+      "start": "2026-09-16T22:15:00.000Z",
+      "end": "2026-09-16T22:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14b7eb48-c4ed-4b88-bc01-e21cb212388e",
+      "title": "Most of your dbt models aren't in a hurry: How to stop paying for the whole DAG",
+      "start": "2026-09-16T22:15:00.000Z",
+      "end": "2026-09-16T22:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4b0fbb17-c89e-4d88-b81c-4abe34fb308b",
+      "title": "Real-time analytics at Bilt: architecture and approach",
+      "start": "2026-09-16T22:15:00.000Z",
+      "end": "2026-09-16T22:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Business leaders and executives",
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries",
+            "Financial Services",
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "85c96403-6e49-4b0d-95cf-b67311050878",
+      "title": "What changes when 300 dbt users at Virgin Media O2 move to Fusion and dbt State",
+      "start": "2026-09-16T22:15:00.000Z",
+      "end": "2026-09-16T22:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Winning with dbt v2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f9f885d7-a17f-4676-bda7-3acdcabb53c2",
+      "title": "dbt Wizard: your AI teammate for data development",
+      "start": "2026-09-16T22:15:00.000Z",
+      "end": "2026-09-16T22:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "699447bb-5a63-461a-b802-a462478fcd7e",
+      "title": "Beyond the basics: Running dbt at scale on Microsoft Fabric",
+      "start": "2026-09-16T22:30:00.000Z",
+      "end": "2026-09-17T00:00:00.000Z",
+      "type": "Hands-on lab",
+      "customFields": []
+    },
+    {
+      "id": "f46ca588-d3d8-4abf-af5f-728066b327b6",
+      "title": "What’s new in dbt v2",
+      "start": "2026-09-16T22:30:00.000Z",
+      "end": "2026-09-16T22:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Winning with dbt v2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3e00b17f-60ba-4613-8e03-0e187a0ed08c",
+      "title": "The limits of DIY: how an S&P 500 Company escaped the data context trap",
+      "start": "2026-09-16T23:00:00.000Z",
+      "end": "2026-09-16T23:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcf9e1bf-5b06-4015-b4f2-61db838ab892",
+      "title": "Black in Data: Building connections and community during career growth",
+      "start": "2026-09-16T23:00:00.000Z",
+      "end": "2026-09-17T00:30:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5521fa5-6bad-4599-9777-bf462d22915b",
+      "title": "Product roundtable: The semantic layer is dead. Long live the semantic layer!",
+      "start": "2026-09-16T23:00:00.000Z",
+      "end": "2026-09-17T00:00:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "196a68d3-6ede-4ef1-bc93-f5d85984736e",
+      "title": "With great context comes great autonomy: leveling up your agent context",
+      "start": "2026-09-16T23:15:00.000Z",
+      "end": "2026-09-16T23:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2a22903a-16ff-4a8a-84a2-4a007119bcac",
+      "title": "From first models to AI-powered maturity: scaling data engineering with dbt at Verisk Underwriting",
+      "start": "2026-09-16T23:15:00.000Z",
+      "end": "2026-09-16T23:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Financial Services"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "455ecf50-fca7-42ed-aa95-cf495835386a",
+      "title": "From prompt to PR: sandbox-validated dbt changes before human review",
+      "start": "2026-09-16T23:15:00.000Z",
+      "end": "2026-09-16T23:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4ddf12d3-b92b-48af-b167-702443567458",
+      "title": "Reliable by design: Lower cost, better delivery, trusted AI",
+      "start": "2026-09-16T23:15:00.000Z",
+      "end": "2026-09-16T23:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Business leaders and executives"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Retail",
+            "Financial Services",
+            "Public Sector",
+            "Pharma",
+            "Manufacturing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "807bd94a-c731-4c82-a51a-cfb879c500e4",
+      "title": "From 14-hour batches and poor documentation to AI-ready data: Mitti's dbt rebuild",
+      "start": "2026-09-16T23:15:00.000Z",
+      "end": "2026-09-16T23:45:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eef5712c-b468-4d5a-b531-2ad2d74594ad",
+      "title": "Friends of Data with Hex",
+      "start": "2026-09-17T00:00:00.000Z",
+      "end": "2026-09-17T03:00:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event",
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08bf5693-0098-434c-8ddc-b5e50022a7d6",
+      "title": "Financial Services & Insurance industry reception",
+      "start": "2026-09-17T00:30:00.000Z",
+      "end": "2026-09-17T03:30:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event",
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1fff9cfa-343a-4e49-a872-aab03172dc3b",
+      "title": "Healthcare & life sciences industry reception",
+      "start": "2026-09-17T00:30:00.000Z",
+      "end": "2026-09-17T03:30:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event",
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4a2b00a7-0065-43b7-84b3-4b25557c5254",
+      "title": "Retail & consumer industry reception",
+      "start": "2026-09-17T00:30:00.000Z",
+      "end": "2026-09-17T03:30:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event",
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "53196e9b-86b1-4032-b198-9e5c2b313378",
+      "title": "Data leaders behind the bar: Learn to create cocktails with Analytics8 & ThoughtSpot",
+      "start": "2026-09-17T00:30:00.000Z",
+      "end": "2026-09-17T03:00:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "88eb11db-38b0-41b6-8aa9-27742fa2f0a6",
+      "title": "Queeries Social",
+      "start": "2026-09-17T00:30:00.000Z",
+      "end": "2026-09-17T02:00:00.000Z",
+      "type": "Networking",
+      "customFields": []
+    },
+    {
+      "id": "443e64f8-7c68-42cc-b619-5d008e5328f0",
+      "title": "Sound healing meditation with Euno",
+      "start": "2026-09-17T13:45:00.000Z",
+      "end": "2026-09-17T14:30:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "094b4043-4111-43f1-b067-7813b6929e3e",
+      "title": "Breakfast",
+      "start": "2026-09-17T14:30:00.000Z",
+      "end": "2026-09-17T15:30:00.000Z",
+      "type": "Meals",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Meals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3e4ac30a-fb7d-4328-8d39-21139f15f25a",
+      "title": "Keynote: Community Keynote",
+      "start": "2026-09-17T16:00:00.000Z",
+      "end": "2026-09-17T17:00:00.000Z",
+      "type": "Keynote",
+      "customFields": []
+    },
+    {
+      "id": "09198957-c1dc-45ea-a110-a2da2477c6c3",
+      "title": "Governed by default: how data teams at Nordstrom turn dbt governance into an AI advantage",
+      "start": "2026-09-17T17:30:00.000Z",
+      "end": "2026-09-17T18:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Business leaders and executives",
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Retail",
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6955449b-f1d5-4c08-89d2-e1e040f2d15e",
+      "title": "Picking the best compute engine for any task",
+      "start": "2026-09-17T17:30:00.000Z",
+      "end": "2026-09-17T17:45:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "83716669-e0b5-4365-8c35-ff221c8f8f11",
+      "title": "Reduce, reuse, recycle: how dbt State cut rebuilds by 92% at RxBenefits",
+      "start": "2026-09-17T17:30:00.000Z",
+      "end": "2026-09-17T18:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8cc6e071-55ac-4782-8ef3-4ab759c57c0f",
+      "title": "Revolutionizing the staging layer: automating dbt generation for 700+ sources",
+      "start": "2026-09-17T17:30:00.000Z",
+      "end": "2026-09-17T18:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a65c9d5f-307d-4b41-b04b-7354288c87ea",
+      "title": "We said I do. Now, we’re joined at the DAG",
+      "start": "2026-09-17T17:30:00.000Z",
+      "end": "2026-09-17T18:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ba3530c6-57a3-4290-8f2b-a089b8254214",
+      "title": "How Sigma manages the semantic layer with dbt and Dagster",
+      "start": "2026-09-17T17:30:00.000Z",
+      "end": "2026-09-17T18:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d8e1242f-89b1-457f-a9bb-253f07b04f77",
+      "title": "{SOLD OUT} Certification",
+      "start": "2026-09-17T17:30:00.000Z",
+      "end": "2026-09-17T20:00:00.000Z",
+      "type": "Certification add-on",
+      "customFields": []
+    },
+    {
+      "id": "0ca7a62f-5782-4b46-b2af-e804914279a1",
+      "title": "AI in the analyst toolkit: What's actually working (and what isn't)",
+      "start": "2026-09-17T17:45:00.000Z",
+      "end": "2026-09-17T18:45:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "AI and agentic analytics"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c31599bf-ffed-4019-a86c-1cda324ec2ea",
+      "title": "Accelerating analytics with AI",
+      "start": "2026-09-17T17:45:00.000Z",
+      "end": "2026-09-17T19:15:00.000Z",
+      "type": "Hands-on lab",
+      "customFields": []
+    },
+    {
+      "id": "d635296f-2a0f-4808-a80f-dd90b72480f8",
+      "title": "Product roundtable: dbt Wizard: your AI teammate for data development",
+      "start": "2026-09-17T17:45:00.000Z",
+      "end": "2026-09-17T18:45:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab8010f0-db49-4569-b365-dfdf26767861",
+      "title": "Chart Slop: Your BI Tool Shipped the Mess",
+      "start": "2026-09-17T18:00:00.000Z",
+      "end": "2026-09-17T18:15:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09111662-76c6-44ce-9859-04da304e50c6",
+      "title": "With great context comes great autonomy: leveling up your agent context",
+      "start": "2026-09-17T18:30:00.000Z",
+      "end": "2026-09-17T18:45:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt product"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "583565db-b692-45b9-9e34-6a5e2e83b331",
+      "title": "From prototype to production: How DoorDash built a scalable analytics SDLC with dbt and ThoughtSpot",
+      "start": "2026-09-17T18:30:00.000Z",
+      "end": "2026-09-17T19:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Retail"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77fccc92-93ea-4b9f-8e38-8dfa361023e4",
+      "title": "Is context engineering the new analytics engineering?",
+      "start": "2026-09-17T18:30:00.000Z",
+      "end": "2026-09-17T19:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8ea3e9c5-c6d6-4ccc-9fb1-0d01ed968c42",
+      "title": "dbt-building a more pet friendly world",
+      "start": "2026-09-17T18:30:00.000Z",
+      "end": "2026-09-17T19:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Retail",
+            "Manufacturing",
+            "Other"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "98cfceb5-8ef4-4408-9b63-00cbf8d7ec18",
+      "title": "Lunch",
+      "start": "2026-09-17T18:30:00.000Z",
+      "end": "2026-09-17T20:30:00.000Z",
+      "type": "Meals",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Meals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a8e5ef33-81af-46bd-8e31-58851d9caf0d",
+      "title": "Optimizing your runs for lower compute, fresher data, and faster iteration with dbt State",
+      "start": "2026-09-17T18:30:00.000Z",
+      "end": "2026-09-17T19:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fa048ca2-651f-45eb-abe1-890776790396",
+      "title": "From selection to scale: how ING is operationalizing dbt across a global bank",
+      "start": "2026-09-17T18:30:00.000Z",
+      "end": "2026-09-17T19:00:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b86be2a4-2b56-4ab1-9d3c-1e142d500db5",
+      "title": "Genius.AI: Hex ate our legacy BI stack",
+      "start": "2026-09-17T19:00:00.000Z",
+      "end": "2026-09-17T19:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4d3100b-8112-4190-b2ba-12dd5b8577ee",
+      "title": "Live debate: Should you stop using introspection in your models?",
+      "start": "2026-09-17T19:30:00.000Z",
+      "end": "2026-09-17T19:45:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10a8902f-a0ec-4831-b060-f28e3b6ffb88",
+      "title": "The principals' framework for consistent dbt at scale",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T20:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "159ccdee-2120-4717-bbef-337b0cce5e9c",
+      "title": "Conversational analytics: building AI-powered analytics people can actually trust",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T20:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2bcb8e32-31ac-45ca-b1d9-9802ea90d290",
+      "title": "Agents, MCPs and buzzword fatigue: what AI actually changes for analytics engineers",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T20:45:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "AI and agentic analytics"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2cf8f410-8b4b-48ce-b6fe-ec8425d46480",
+      "title": "Scaling dbt on Amazon Redshift: how KOHO cut transformation runtime 70% without rewriting a single model",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T20:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acc6d19e-4a9a-4dd9-9256-b8a9a063198a",
+      "title": "Migrate stored procs with dbt Wizard",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T21:15:00.000Z",
+      "type": "Hands-on lab",
+      "customFields": []
+    },
+    {
+      "id": "c3384163-ff3a-4b1d-889c-cc99594ffb75",
+      "title": "Ramp's internal AI stack: agents, sandboxes, and an AI-first BI tool",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T20:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c6cfbc29-8934-4e93-8692-a3a5bf2d941a",
+      "title": "Beyond layers and medallions: An explicit data modeling framework",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T20:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate",
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d4a35ca0-d99f-4c11-8673-16b09bf27290",
+      "title": "Product roundtable: With great context comes great autonomy: leveling up your agent context",
+      "start": "2026-09-17T19:45:00.000Z",
+      "end": "2026-09-17T20:45:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bc55a3a-56d2-4bad-b3cb-a14ddb6e3afe",
+      "title": "Build, test, evaluate, deploy: Coding plugins for Connector SDK",
+      "start": "2026-09-17T20:00:00.000Z",
+      "end": "2026-09-17T20:15:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "AI and agentic analytics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aad5ba68-37e4-4f61-a32a-e773fd0912f9",
+      "title": "Dashboards as Code with dbt Charts",
+      "start": "2026-09-17T20:30:00.000Z",
+      "end": "2026-09-17T20:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "080e2a26-4342-4c5a-b83b-da9ce1fca849",
+      "title": "Warming up to Iceberg: 2026 makes Iceberg easier",
+      "start": "2026-09-17T20:45:00.000Z",
+      "end": "2026-09-17T21:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Practitioners at the edge"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1bd93e9e-9c26-456a-963f-ae0aa40621ba",
+      "title": "An AlphaSense case study: scaling AI on enterprise data with dbt-first governance and context from Euno",
+      "start": "2026-09-17T20:45:00.000Z",
+      "end": "2026-09-17T21:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6cb248c8-65f4-42b3-bdf6-4a7b7764b73b",
+      "title": "All aboard: Rebuilding dbt in the open",
+      "start": "2026-09-17T20:45:00.000Z",
+      "end": "2026-09-17T21:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8a2bb6e5-992c-45d6-aa0e-42a21c47c69f",
+      "title": "One engine to rule them all: why Obie left the shire",
+      "start": "2026-09-17T20:45:00.000Z",
+      "end": "2026-09-17T21:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Winning with dbt v2"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e1e6e6b3-2fbb-4923-b27b-aa464e35683d",
+      "title": "From data to AI: why Microsoft Fabric and dbt are better together",
+      "start": "2026-09-17T20:45:00.000Z",
+      "end": "2026-09-17T21:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ad71735f-9160-4c60-849b-e31f843d28b9",
+      "title": "AI didn't change our dbt project, just who cared about it.",
+      "start": "2026-09-17T21:00:00.000Z",
+      "end": "2026-09-17T21:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07af3552-b18b-4b8d-b337-15ab50727763",
+      "title": "Product roundtable: Open Data Infrastructure in practice: unlock your dbt projects with Apache Iceberg and mesh",
+      "start": "2026-09-17T21:15:00.000Z",
+      "end": "2026-09-17T22:15:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "869201e5-9cbf-497c-8970-0e44c3f38a1f",
+      "title": "{SOLD OUT} Certification",
+      "start": "2026-09-17T21:15:00.000Z",
+      "end": "2026-09-17T23:45:00.000Z",
+      "type": "Certification add-on",
+      "customFields": []
+    },
+    {
+      "id": "52528abe-db6d-4ec1-a1dd-b06c2aafd228",
+      "title": "We have been overthinking context engineering",
+      "start": "2026-09-17T21:30:00.000Z",
+      "end": "2026-09-17T21:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17cc8c76-3da9-4f4d-a48b-b5920343778a",
+      "title": "From dashboards to data products: how dbt transforms analytics teams",
+      "start": "2026-09-17T21:45:00.000Z",
+      "end": "2026-09-17T22:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9c84b5cb-c5b4-4436-aca9-02b11fad0050",
+      "title": "Getting instant feedback: The new dbt powered developer experience",
+      "start": "2026-09-17T21:45:00.000Z",
+      "end": "2026-09-17T22:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1616f84-4d9e-4bc6-a6dc-d8a0b40e213e",
+      "title": "From DML soup to dbt structure: Ecolab's migration story",
+      "start": "2026-09-17T21:45:00.000Z",
+      "end": "2026-09-17T22:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c4a39d61-b05c-4627-a6a9-a76b42d54471",
+      "title": "Beyond semantic models: \"Domain context as code\" for high-accuracy text-to-SQL",
+      "start": "2026-09-17T21:45:00.000Z",
+      "end": "2026-09-17T22:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Retail",
+            "Media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5c02027-b96f-43d4-ba0e-e27d16fd8211",
+      "title": "From cost center to profit center: how Mitratech built a data platform on dbt",
+      "start": "2026-09-17T21:45:00.000Z",
+      "end": "2026-09-17T22:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Expert"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Business leaders and executives",
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6b019764-3e62-48d8-b83f-e9b6812e5184",
+      "title": "From Lakehouse to agents: scaling analytics with dbt and Google Cloud",
+      "start": "2026-09-17T22:00:00.000Z",
+      "end": "2026-09-17T22:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "869c1ae0-eddd-484f-8a52-295cda1dc514",
+      "title": "Creating context with dbt MCP Server",
+      "start": "2026-09-17T22:15:00.000Z",
+      "end": "2026-09-17T23:45:00.000Z",
+      "type": "Hands-on lab",
+      "customFields": []
+    },
+    {
+      "id": "49ec7877-a905-410d-afa9-bd1c5bea08c6",
+      "title": "The View on Data: Live from dbt Summit",
+      "start": "2026-09-17T22:30:00.000Z",
+      "end": "2026-09-17T23:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Business leaders and executives"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "94d94ea9-5c6a-4bf0-a451-918dc5626bb6",
+      "title": "Inside the agentic data stack at Bilt",
+      "start": "2026-09-17T22:30:00.000Z",
+      "end": "2026-09-17T22:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries",
+            "Financial Services",
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "35e455b9-8aea-47f2-8773-f8087a3cc482",
+      "title": "How Figma builds a consistent experience with confidence",
+      "start": "2026-09-17T22:45:00.000Z",
+      "end": "2026-09-17T23:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "54d58763-a919-456c-8bc6-122ad546845f",
+      "title": "Beyond the dashboard: an MCP-connected AI agent that reads your dbt lineage",
+      "start": "2026-09-17T22:45:00.000Z",
+      "end": "2026-09-17T23:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "60e114a9-17b8-4951-91b9-6b388931004c",
+      "title": "AI-augmented analytics engineering at DocuSign: from req to release-ready with Fusion, dbt MCP, and dbt agent skills",
+      "start": "2026-09-17T22:45:00.000Z",
+      "end": "2026-09-17T23:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Winning with dbt v2"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a88a2e32-0111-4423-8117-179922466eb8",
+      "title": "Fireside chat: What is Context Engineering and why does it matter for analytics practitioners",
+      "start": "2026-09-17T22:45:00.000Z",
+      "end": "2026-09-17T23:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac5021b7-7158-42c9-b5ca-249cbfe8ae88",
+      "title": "dbt Charts: Building a Viz Language that’s Easy on the I’s - AI, BI, CI, and ODI",
+      "start": "2026-09-17T22:45:00.000Z",
+      "end": "2026-09-17T23:15:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Building agentic data workflows"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eea3c7af-1ab0-475e-9ef1-d491021844ef",
+      "title": "What AI agents get wrong, and how semantics fixes it",
+      "start": "2026-09-17T23:00:00.000Z",
+      "end": "2026-09-17T23:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": []
+    },
+    {
+      "id": "73458d56-b589-46cd-8c3a-fe35922cd46c",
+      "title": "The View on Data: Networking mingle",
+      "start": "2026-09-17T23:15:00.000Z",
+      "end": "2026-09-18T00:00:00.000Z",
+      "type": "Networking",
+      "customFields": []
+    },
+    {
+      "id": "8e30083f-50f6-477c-a8f9-8f693808c38a",
+      "title": "In the weeds of dbt State",
+      "start": "2026-09-17T23:30:00.000Z",
+      "end": "2026-09-17T23:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt product"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "781a1de6-1ba8-4b1a-ab86-db98eebeb473",
+      "title": "dbt Summit Party",
+      "start": "2026-09-18T02:00:00.000Z",
+      "end": "2026-09-18T05:00:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bb6d10b5-b048-4988-8990-4f903f3cacfd",
+      "title": "dbt Summit After Party with ClickHouse & AWS",
+      "start": "2026-09-18T05:00:00.000Z",
+      "end": "2026-09-18T07:00:00.000Z",
+      "type": "Networking",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Partner Hosted Event",
+            "Evening Event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f622fff9-4672-4947-81fd-3880c0dfbb5d",
+      "title": "Breakfast",
+      "start": "2026-09-18T14:30:00.000Z",
+      "end": "2026-09-18T16:00:00.000Z",
+      "type": "Meals",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Meals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8bebec40-ea73-4e7a-bc91-e75796e022cc",
+      "title": "{SOLD OUT} Governed & scalable AI-assisted analytics with dbt",
+      "start": "2026-09-18T15:30:00.000Z",
+      "end": "2026-09-18T17:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "a4aa124e-6cad-402b-8949-ef8362baeb52",
+      "title": "{SOLD OUT} Becoming a dbt Architect",
+      "start": "2026-09-18T15:30:00.000Z",
+      "end": "2026-09-18T19:30:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "cc1e54c7-b2b1-41dd-97db-d7d8e07eeb67",
+      "title": "{SOLD OUT} Certification",
+      "start": "2026-09-18T15:30:00.000Z",
+      "end": "2026-09-18T18:00:00.000Z",
+      "type": "Certification add-on",
+      "customFields": []
+    },
+    {
+      "id": "1dfea510-2b75-4529-a22d-09ac22a1a579",
+      "title": "The Platform Team Said No — dbt won with “Yes” - Story of Governance, Autonomy, and Scale",
+      "start": "2026-09-18T16:00:00.000Z",
+      "end": "2026-09-18T16:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45f21bd5-bd65-4ea2-b323-50d405f1f12a",
+      "title": "Beyond the bottleneck: position your Analytics Engineering team as a strategic force",
+      "start": "2026-09-18T16:00:00.000Z",
+      "end": "2026-09-18T17:00:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6da16abd-b53a-469f-933a-1639002f4df2",
+      "title": "Product roundtable: Rebuilding dbt Core: Faster runtime, adapters, and docs v2",
+      "start": "2026-09-18T16:00:00.000Z",
+      "end": "2026-09-18T17:00:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7a111180-85aa-4ff7-bd9c-9ca0cf633f00",
+      "title": "We have been overthinking context engineering",
+      "start": "2026-09-18T16:00:00.000Z",
+      "end": "2026-09-18T16:15:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7d7b5efe-5c92-45c6-b808-107106dfea01",
+      "title": "Open Data Infrastructure in practice: unlock your dbt projects with Apache Iceberg and mesh",
+      "start": "2026-09-18T16:00:00.000Z",
+      "end": "2026-09-18T16:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9eb4ae76-c14a-4bfc-8831-8ffe3d85ece4",
+      "title": "Scaling trusted self-service for dbt stakeholders",
+      "start": "2026-09-18T16:00:00.000Z",
+      "end": "2026-09-18T17:30:00.000Z",
+      "type": "Hands-on lab",
+      "customFields": []
+    },
+    {
+      "id": "d68d4944-77e4-449f-869f-8c821f93435d",
+      "title": "$$1B in transactions, 1 minute latency: dbt as production banking infrastructure",
+      "start": "2026-09-18T16:00:00.000Z",
+      "end": "2026-09-18T16:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries",
+            "Financial Services"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fac5c649-973c-4643-bd27-1b72bad365dd",
+      "title": "Getting the most out of dbt on Databricks",
+      "start": "2026-09-18T16:30:00.000Z",
+      "end": "2026-09-18T16:50:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7815d43e-f977-48ab-a42e-82430809c655",
+      "title": "ClickHouse + dbt: Building a GitOps workflow at Twilio",
+      "start": "2026-09-18T17:00:00.000Z",
+      "end": "2026-09-18T17:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9c4d1ffa-f024-4551-a60e-d367b36ac774",
+      "title": "dbt without the warehouse (or the bill): DuckDB end to end",
+      "start": "2026-09-18T17:00:00.000Z",
+      "end": "2026-09-18T17:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Analytics engineering best practices"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ad076e86-8515-4c93-a325-b1e6e3e1b929",
+      "title": "When skills meet scale: an agent assembly line for dbt",
+      "start": "2026-09-18T17:00:00.000Z",
+      "end": "2026-09-18T17:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Winning with dbt v2"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c0ddd5d7-31e2-4518-acc5-decc56c29861",
+      "title": "Glorious Charts",
+      "start": "2026-09-18T17:00:00.000Z",
+      "end": "2026-09-18T17:20:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6b381805-b1e8-43c8-953e-f329149246b1",
+      "title": "Build, test, evaluate, deploy: Coding plugins for Connector SDK",
+      "start": "2026-09-18T17:30:00.000Z",
+      "end": "2026-09-18T17:45:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "AI and agentic analytics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c8ddae0f-c953-4d2d-b189-8ac3cde1c9c1",
+      "title": "Data + AI agent hackathon",
+      "start": "2026-09-18T17:30:00.000Z",
+      "end": "2026-09-18T20:30:00.000Z",
+      "type": "Hackathon",
+      "customFields": []
+    },
+    {
+      "id": "6caed813-8240-46b1-aad3-a9cddc166333",
+      "title": "ADBC in production: zero-copy, non-zero problems",
+      "start": "2026-09-18T18:00:00.000Z",
+      "end": "2026-09-18T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data modernization & emerging architectures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6f58bcaf-ec1a-4e10-8eda-cf613da02fbb",
+      "title": "dbt for public health: sightline wastewater monitoring at scale",
+      "start": "2026-09-18T18:00:00.000Z",
+      "end": "2026-09-18T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8d3eb2d8-e83b-4ab1-b1c1-ecd87c8cda50",
+      "title": "Does your data pipeline deserve to exist? How EF Education built a cost and value layer with dbt and Cortex Agent",
+      "start": "2026-09-18T18:00:00.000Z",
+      "end": "2026-09-18T18:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Business leaders and executives",
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8d7831b2-c728-4d4f-be52-2550e159a93d",
+      "title": "More than a data-delivery service: becoming a trusted advisor to your stakeholders",
+      "start": "2026-09-18T18:00:00.000Z",
+      "end": "2026-09-18T18:15:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data careers and data leadership"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "957f01ac-e719-4fab-81a1-47d3237f9e08",
+      "title": "{SOLD OUT} Mastering data quality with dbt",
+      "start": "2026-09-18T18:00:00.000Z",
+      "end": "2026-09-18T20:00:00.000Z",
+      "type": "Training add-on",
+      "customFields": []
+    },
+    {
+      "id": "c3e46dbc-7e2c-43da-8172-c34299e3f9b9",
+      "title": "Product roundtable: Optimizing your runs for lower compute, fresher data, and faster iteration with dbt State",
+      "start": "2026-09-18T18:00:00.000Z",
+      "end": "2026-09-18T19:00:00.000Z",
+      "type": "Roundtable",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d7baab3c-90d6-4ec8-807c-9892d1858018",
+      "title": "Building dbt projects in rough terrain: creating a trailguide for dbt pioneers",
+      "start": "2026-09-18T18:00:00.000Z",
+      "end": "2026-09-18T19:00:00.000Z",
+      "type": "Peer exchange",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Data careers and data leadership"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5748d019-fd68-4c4b-8639-0c85e2097522",
+      "title": "Teaching dbt Wizard to write code like your team",
+      "start": "2026-09-18T18:30:00.000Z",
+      "end": "2026-09-18T18:45:00.000Z",
+      "type": "Lightning talk",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "AI and agentic analytics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f9601ddb-4db7-403c-b49e-3836af2e6825",
+      "title": "Lunch",
+      "start": "2026-09-18T18:30:00.000Z",
+      "end": "2026-09-18T20:30:00.000Z",
+      "type": "Meals",
+      "customFields": [
+        {
+          "id": "fca83834-3141-48a3-ba5a-a2ca8cb17ad8",
+          "name": "Beyond the sessions",
+          "values": [
+            "Meals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33566a33-7da9-4210-8c70-c17913437dde",
+      "title": "The semantic layer is dead. Long live the semantic layer!",
+      "start": "2026-09-18T19:00:00.000Z",
+      "end": "2026-09-18T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt Product"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "64baface-413b-4c77-86a6-317347644664",
+      "title": "Don't ship what you can't measure: Evaluation-driven development for AI analytics agents",
+      "start": "2026-09-18T19:00:00.000Z",
+      "end": "2026-09-18T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feb1fc2f-dee5-4e4f-a26e-3bc02c308a32",
+      "title": "Charts worth stealing: The design calls BI should ship",
+      "start": "2026-09-18T19:00:00.000Z",
+      "end": "2026-09-18T19:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "55681572-597b-48f2-920e-0343897de642",
+      "title": "A dbt \"logic mesh\" with packages: standard model and metrics across 25 autonomous organizations",
+      "start": "2026-09-18T20:00:00.000Z",
+      "end": "2026-09-18T20:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "dbt at scale"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries",
+            "Public Sector"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "720c01de-ca47-479e-bf0e-74acb3ea8152",
+      "title": "Shrink the surface: governed self-service for analyst-owned dbt pipelines",
+      "start": "2026-09-18T20:00:00.000Z",
+      "end": "2026-09-18T20:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Delivering business outcomes"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Basic",
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data leaders",
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "Technology",
+            "Media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "88194ea9-5b0b-4d1e-b8d4-9d03f7e7fdcc",
+      "title": "Meta:Context: a business context schema in dbt's semantic layer",
+      "start": "2026-09-18T20:00:00.000Z",
+      "end": "2026-09-18T20:30:00.000Z",
+      "type": "Breakout session",
+      "customFields": [
+        {
+          "id": "1fb82f3b-bf67-4f73-b51e-2f30d1d2d935",
+          "name": "Track",
+          "values": [
+            "Powering AI-ready data"
+          ]
+        },
+        {
+          "id": "37f03b10-5cb6-4b91-9d49-5c8de4d3121e",
+          "name": "Knowledge Level",
+          "values": [
+            "Intermediate"
+          ]
+        },
+        {
+          "id": "776ad4d4-14bd-4ff1-bd96-e95d7e209d5d",
+          "name": "Persona",
+          "values": [
+            "Data practitioners"
+          ]
+        },
+        {
+          "id": "b198aba4-7835-479d-ae9b-052245b51f2e",
+          "name": "Relevant Industry",
+          "values": [
+            "All industries",
+            "Technology"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -59,7 +59,7 @@ draft: true
 - [ ] [실제로 해볼 일]
 ```
 
-`title`, `description`, `pubDatetime`은 필수입니다. 초안은 `draft: true`로 두고, 공개할 때 `false`로 바꾸거나 해당 줄을 삭제합니다. 파일명과 하위 폴더 이름은 글 URL의 일부가 됩니다. 이미지가 필요하면 `src/content/posts/<글-폴더>/`에 넣고 본문에서 상대 경로로 참조합니다.
+`title`, `description`, `pubDatetime`은 필수입니다. 초안은 `draft: true`로 두고, 공개할 때 `false`로 바꾸거나 해당 줄을 삭제합니다. 파일명과 하위 폴더 이름은 글 URL의 일부가 됩니다. 이미지가 필요하면 `src/assets/blog/<글-slug>/`에 넣고 본문에서 상대 경로로 참조합니다.
 
 ## 발행 전 확인과 배포
 
@@ -77,6 +77,35 @@ pnpm build         # 타입 검사와 프로덕션 빌드
 2. `pnpm format:check && pnpm lint && pnpm build`를 통과시킵니다.
 3. 변경사항을 커밋하고 `main`에 푸시합니다.
 4. Vercel 배포가 완료된 뒤 실제 도메인에서 글·이미지·공유 미리보기를 확인합니다.
+
+### 로컬 초안을 실제 배포로 올리기
+
+로컬에서 글을 확인한 뒤 실제 사이트에 공개하려면 먼저 해당 글의 frontmatter를 바꿉니다.
+
+```md
+draft: false
+```
+
+그다음 필요한 파일만 골라 커밋하고 푸시합니다. 예를 들어 dbt Summit 2026 1일차 글은 다음 흐름을 사용합니다.
+
+```bash
+cd /Users/user/astro-paper
+
+npx --yes pnpm@10.24.0 build
+
+git status --short
+
+git add src/content/posts/dbt-summit-2026-02-day-1.md \
+  src/assets/blog/dbt-summit-2026-02-day-1 \
+  src/pages/posts/[...slug]/index.astro \
+  notes/dbt-summit-2026
+
+git commit -m "Add dbt Summit 2026 day 1 post"
+
+git push origin main
+```
+
+`main` 브랜치에 푸시하면 Vercel이 자동 배포를 시작합니다. `git add -A`는 사용하지 않는 편이 안전합니다. 로컬에는 임시 파일이나 메모 파일이 함께 있을 수 있으므로, 배포에 필요한 Markdown, 이미지, 라우트, 근거 노트만 직접 지정해서 추가합니다.
 
 ## 자주 수정하는 위치
 
