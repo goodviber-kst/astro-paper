@@ -1,5 +1,5 @@
 ---
-import { inject } from "@vercel/analytics";
+import Analytics from "@vercel/analytics/astro";
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
 import { getRelativeLocaleUrl } from "astro:i18n";
@@ -7,8 +7,6 @@ import { resolveDefaultOgImagePath } from "@/utils/resolveDefaultOgImagePath";
 import { getAssetPath } from "@/utils/withBase";
 import config from "@/config";
 import "@/styles/global.css";
-
-inject();
 
 type Props = {
   title?: string;
@@ -123,6 +121,9 @@ const rssHref = getRelativeLocaleUrl(
     class="bg-background font-app text-foreground selection:bg-accent/75 selection:text-accent-foreground flex min-h-svh flex-col"
   >
     <slot />
+
+    <Analytics />
+
     <script>
       import "@/scripts/theme";
     </script>
