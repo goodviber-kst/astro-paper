@@ -67,13 +67,13 @@ AI Agent가 데이터를 직접 사용하려면 단순히 테이블만 잘 만�
 ![alt text](image.png)
 
 - [dbt Charts](https://github.com/dbt-labs/dbt-charts)는 대시보드를 코드로 관리하려는 시도에 가까웠습니다. SQL 모델은 이미 Git과 PR, CI 위에서 관리하는데, 마지막 결과물인 대시보드는 여전히 BI 도구 안에 갇혀 있는 경우가 많습니다. dbt Charts는 YAML로 대시보드를 정의하고, 모델과 같은 저장소와 리뷰 흐름 안에서 관리하려는 방향으로 소개되었습니다.
-- dashboard as a code와 같은 맥락이라고 봐도 될 것 같습니다. 다만 여기서 제공하는 function이 직관적이거나, 궂이 DBT 프로젝트에 정의해야될 차별점이 있는지는 잘 모르겠습니다 ㅎㅎ
+- 개인적으로는 Dashboard as Code에 가까운 접근으로 이해했습니다. 다만 기존 BI 도구에서 제공하는 기능들과 비교했을 때 얼마나 직관적인지, 그리고 대시보드까지 굳이 dbt 프로젝트 안에서 관리해야 할 만큼의 장점이 있는지는 조금 더 사용해봐야 알 것 같습니다.
 
 ![dbt Wizard를 소개하는 키노트 화면](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-194.jpeg)
 
 - [dbt Wizard](https://www.getdbt.com/product/dbt-wizard)는 analytics engineering을 위한 AI Agent로 소개되었습니다. 프로젝트 구조와 lineage, test 결과를 바탕으로 변경 영향을 확인하고, 변경 사항을 build와 compile까지 검증하는 방향이었습니다. 키노트 전체가 "AI가 데이터를 쓰는 시대"를 이야기했다면, Wizard는 그 흐름을 dbt 개발 경험 안으로 가져오는 제품처럼 보였습니다.
 
-- 다만, 개인적으로는 이미 숙련된 수준으로 claude를 활용하고 있거나, claude에 여러가지 dbt artifact(catalog.json, manifest.json)을 표준화된 컨텍스트(e.g skill)로 활용하고 있는 경우 당장 써야할 이유를 찾지는 못했습니다ㅠ (써야할 더 좋은 이유가 있다면 알려주세요.)
+- 다만, 개인적으로는 이미 숙련된 수준으로 claude를 활용하고 있거나, 이미 Claude 같은 AI 도구에 manifest.json, catalog.json 등의 dbt artifact를 Context로 연결해 활용하고 있다면, 기존 워크플로와 비교해 어떤 차별점이 있는지는 조금 더 확인해보고 싶었습니다.
 
 
 ![키노트가 끝난 뒤 이동하는 참가자들](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-199.jpeg)
@@ -92,6 +92,7 @@ AI Agent가 데이터를 직접 사용하려면 단순히 테이블만 잘 만�
 개인적으로는 dbt가 기존 Transformation 중심에서 **Compute → Semantic Layer → Agent Context → AI Agent → Visualization까지 영역을 넓히고 있다는 점**이 가장 인상적이었습니다.
 
 ![alt text](image-1.png)
+
 
 또한 뒤이은 세션에서도 언급되는 "에이전트 스키마"에 대한 내용도 많이 언급이 되었는데요.
 
@@ -166,7 +167,7 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 따라서 애드혹 테이블을 자유롭게 사용하면서도 거버넌스된 Metric은 그대로 활용할 수 있어야 합니다.
 
 3. **변환 레이어(Transform Layer)에서의 활용**: Semantic Layer를 BI나 Agent가 사용하는 마지막 계층으로만 보면 활용 범위가 좁습니다.
-- 사전 집계, Feature Store/ Customer 360(?)처럼 Transformation 과정에서도 Semantic 정보를 활용할 수 있어야 한다고 설명했습니다. 
+- 사전 집계, Feature Store/ Customer 360(?)처럼 Transformation 과정에서도 Semantic 정보를 활용할 수 있어야 한다고 설명했습니다.
 
 4. **구성 가능성과 접근 제어(Configurability & Access Control)**: Agent에게 모든 데이터를 보여주는 것도 답은 아닙니다.
 - 필요한 컨텍스트와 데이터만 접근하도록 제어하고, 어떤 데이터를 근거로 답을 만들었는지 추적할 수 있어야 합니다.
@@ -206,7 +207,7 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 
 - 진행자는 커리어 방향을 정할 때 단순히 다음 직급이나 연봉을 생각하기보다, 5~10년 뒤 어떤 일을 하고 싶은지 스스로 질문해보는 것이 중요하다고 이야기했습니다.
 
-- 특히 경력이 쌓이면 자연스럽게 Manager가 되어야 한다고 생각하기 쉽지만, 반드시 관리자가 되는 것만이 성장의 방향은 아니라는 이야기도 나왔습니다. 
+- 특히 경력이 쌓이면 자연스럽게 Manager가 되어야 한다고 생각하기 쉽지만, 반드시 관리자가 되는 것만이 성장의 방향은 아니라는 이야기도 나왔습니다.
 
 - 사람과 조직의 성장을 돕는 일에 더 관심이 있다면 Manager가 맞을 수 있고, 반대로 기술적인 문제를 깊게 해결하거나 직접 만드는 일을 계속하고 싶다면 IC로 성장하는 방향도 충분히 좋은 선택이라는 이야기였습니다.
 
@@ -214,19 +215,13 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 
 ### 라운드테이블에서 이어진 스몰토크
 
-- 라운드테이블이다 보니 자연스럽게 옆에 앉은 참가자들과 이야기를 나눌 기회도 많았습니다. 그중 텍사스에서 온 데이터 엔지니어와 꽤 오랜 시간 이야기를 나눴습니다.
+- 라운드테이블에서 텍사스의 석유 관련 회사에서 일하는 데이터 엔지니어와 꽤 오랜 시간 이야기를 나눴습니다. 처음에는 서로 어디에서 왔는지, 한국과 미국까지의 비행시간, 삼성 주식 이야기 같은 가벼운 대화로 시작했습니다. ㅋㅋㅋ
 
-- 처음에는 서로 어디에서 왔는지 이야기하면서 가벼운 대화부터 시작했습니다. (텍사스에서 라스베이거스까지 얼마나 걸리는지, 한국에서 미국까지는 얼마나 걸렸는지, 삼성 주식이 왜 이렇게 올랐는지 ㅋㅋㅋ)
+- 이야기를 나누면서 개인적으로 흥미로웠던 점은 **석유와 같은 전통 산업에서도 데이터 엔지니어가 dbt Summit에 직접 참여해 데이터 엔지니어링과 AI 활용 사례를 살펴보고 있다는 점**이었습니다. 테크 기업뿐 아니라 다양한 산업에서 데이터와 AI를 어떻게 활용할지 고민하고 있다는 것을 조금이나마 체감할 수 있었습니다.
 
-- 그러다 다시 커리어 이야기로 돌아와 서로 어떤 일을 하고 있는지, 데이터 엔지니어링 쪽으로 어떻게 커리어를 옮기게 되었는지에 대해서도 이야기했습니다.
+- 이후에는 서로 어떤 일을 하고 있는지, 데이터 엔지니어링으로 어떻게 커리어를 옮겼는지, 실제 개발 과정에서 AI를 어떻게 활용하고 있는지, 미국의 레이오프 이야기 등에 대해서도 이야기를 나눴습니다.
 
-- 최근 업무에서 AI를 어떻게 사용하고 있는지도 이야기했는데, AI 도구를 실제 개발 과정에서 어떻게 활용하고 있는지 서로 경험을 공유했습니다. 같은 데이터 엔지니어라고 해도 회사나 환경에 따라 AI 도구를 사용하는 방식이 조금씩 달라서 이런 이야기를 직접 들어보는 것도 흥미로웠습니다.
-
-- 개인적으로 이 시간은 세션 내용만큼이나 기억에 남았습니다. 해외 컨퍼런스에 와서 유명한 발표를 듣는 것도 좋지만, 비슷한 일을 하는 다른 나라의 엔지니어가 어떤 환경에서 일하고 있고, 어떤 커리어 고민을 하고 있는지 직접 들어볼 수 있다는 것도 컨퍼런스의 큰 장점​이라는 생각이 들었습니다.
-
-- 영어가 편한 편은 아니라 처음에는 이런 라운드테이블 세션이 조금 부담스럽기도 했는데, 막상 이야기를 시작하니 생각보다 자연스럽게 대화가 이어졌습니다. 돌이켜보면 이번 Summit에서 발표를 듣는 것과는 또 다른 방식으로 기억에 남은 시간이었습니다.
-
-- 자연스럽게 서로 링크드인을 교환하고, 남은 시간 잘 보내라고 서로 응원해주었습니다!
+- 해외 컨퍼런스에서 발표를 듣는 것도 좋았지만, **다른 나라와 산업에서 일하는 엔지니어들이 어떤 환경에서 비슷한 고민을 하고 있는지 직접 들어볼 수 있다는 점**도 꽤 좋은 경험이었습니다. 마지막에는 LinkedIn을 교환하고 남은 일정도 잘 보내라고 인사하며 헤어졌습니다!
 
 ## 점심, 그리고 바로 다음 세션으로
 
@@ -234,7 +229,7 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 
 ![짧은 점심 시간에 담아 온 음식 접시](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-211.jpeg)
 
-컨퍼런스에서 점심 사진은 항상 여유로워 보이지만, 실제로는 다음 세션 시간을 보면서 허겁지겁 먹고 일어나는 경우가 많았습니다. 이날도 그랬습니다. 😅 (친구 없어서 아닙니다)
+컨퍼런스에서 점심 사진은 항상 여유로워 보이지만, 실제로는 다음 세션 시간을 보면서 허겁지겁 먹고 일어나는 경우가 많았습니다. 이날도 그랬습니다. 😅
 
 ---
 
@@ -248,7 +243,7 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 좋았던 점은 해당 세션은 실시간 통역을 제공하여 아래 사진처럼 모르는 부분이 있으면 바로바로 잡아나갈 수 있었습니다!
 ![실시간 통역이 제공되는 화면](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-215.png)
 
-이 워크숍은 dbt Semantic Layer의 개념 소개부터 시작해, YAML 설정과 메트릭 연결, Semantic Model 구성, MetricFlow를 활용한 쿼리 방식까지 이어졌습니다. 
+이 워크숍은 dbt Semantic Layer의 개념 소개부터 시작해, YAML 설정과 메트릭 연결, Semantic Model 구성, MetricFlow를 활용한 쿼리 방식까지 이어졌습니다.
 - 세션 자료와 슬라이드는 GitHub에도 공개되어 있으니 참고하실 분은 참고 부탁드립니다!
   - [Standardizing Insights with the dbt Semantic Layer 슬라이드](https://github.com/dbt-labs/dbt-summit-26-Standardizing-insights-with-the-dbt-Semantic-Layer/tree/main/_slides)
 
@@ -278,7 +273,7 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 ![Model-Level Metadata 설정 예시](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-220.jpeg)
 ![Column-Level Metadata를 설명하는 화면](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-222.jpeg)
 
-- Model-Level에서는 해당 모델이 어떤 목적으로 만들어졌고 어떤 질문에 사용해야 하는지와 같은 정보를 정의하고, 
+- Model-Level에서는 해당 모델이 어떤 목적으로 만들어졌고 어떤 질문에 사용해야 하는지와 같은 정보를 정의하고,
 - Column-Level에서는 컬럼의 의미뿐만 아니라 SUM과 AVG 중 어떤 집계 방식을 사용해야 하는지와 같은 구체적인 사용 규칙까지 관리하는 방식이었습니다.
 
 - 즉 Agent에게 테이블과 컬럼 목록만 전달하는 것이 아니라,
@@ -293,7 +288,7 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 
 ![AI must be governed 화면](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-227.jpeg)
 
-- 에이전트가 참조하는 자산을 단순히 복제해서 분산시키기보다 단일 소스를 유지하는 것이 중요하다는 메시지도 있었습니다. 
+- 에이전트가 참조하는 자산을 단순히 복제해서 분산시키기보다 단일 소스를 유지하는 것이 중요하다는 메시지도 있었습니다.
 - 이 부분은 기존 데이터 거버넌스의 문제와 같다는 생각이 들었고, 사람이 쓰는 데이터든, 에이전트가 쓰는 데이터든, 결국 신뢰할 수 있는 정의와 출처가 있어야한다 라는 내용이었습니다.
 
 ![Unified Discovery Layer 구성도](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-234.jpeg)
@@ -306,43 +301,43 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
 
 
 ### 총평
-- 이번 세션에서 가장 인상적이었던 점은 Agent마다 Context를 따로 만드는 것이 아니라, Context 자체를 하나의 관리 대상처럼 다룬다는 점이었습니다. 
+- 이번 세션에서 가장 인상적이었던 점은 Agent마다 Context를 따로 만드는 것이 아니라, Context 자체를 하나의 관리 대상처럼 다룬다는 점이었습니다.
 
 - Model과 Column에 사용 목적이나 집계 규칙을 정의하고, 공통 Context와 도메인별 Context를 구분해 필요한 Agent가 활용하도록 하는 방식이었습니다.
 
 - 아쉬웠던 부분은 실제 적용되는 사례를 보고 싶었는데, 발표 내용만으로는 다소 추상적이고 이론적으로 느껴졌습니다 ㅠㅠ
 
---- 
+---
 
 ## With Great Context Comes Great Autonomy: Leveling Up Your Agent Context
 ![alt text](image-6.png)
 
-마지막으로 들은 세션은 With Great Context Comes Great Autonomy: Leveling Up Your Agent Context였습니다. 제목처럼 Agent Context가 충분히 좋아져야 에이전트의 자율성도 높아질 수 있다는 내용이었습니다. 
+마지막으로 들은 세션은 With Great Context Comes Great Autonomy: Leveling Up Your Agent Context였습니다. 제목처럼 Agent Context가 충분히 좋아져야 에이전트의 자율성도 높아질 수 있다는 내용이었습니다.
 (계속 비슷한 이야기지만 개인적으로 좋았던 세션이라 남겨둡니다.)
 
 ![비즈니스 이해와 데이터 포인트를 연결하는 화면](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-239.jpeg)
 
 
-- 이 세션에서는 Agent Context의 출처를 크게 Knowledge Sources, Operational Sources, Analytical Sources 세 가지로 구분했습니다. 
+- 이 세션에서는 Agent Context의 출처를 크게 Knowledge Sources, Operational Sources, Analytical Sources 세 가지로 구분했습니다.
   - Knowledge Sources에는 문서나 Wiki처럼 비즈니스의 용어와 개념을 설명하는 정보가 있고
-  - Operational Sources에는 Database, ERP, CRM과 같은 운영 데이터가 있습니다. 
+  - Operational Sources에는 Database, ERP, CRM과 같은 운영 데이터가 있습니다.
   - Analytical Sources에는 dbt에서 만든 데이터 모델과 Metric Definition, Hex나 Sigma 같은 분석 도구에 존재하는 정보가 포함됩니다
 
 ![Source Control for Data를 설명하는 화면](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-240.jpeg)
 
-- 단순히 여러 시스템을 연결하는 것에서 끝나는 것은 아니었습니다. 
-  - 연결된 데이터와 문서를 읽어 Search Index와 Vector Embedding을 만들고, Catalog를 구성한 뒤 Ontology Discovery를 통해 서로 다른 Source에 존재하는 개념과 의미를 연결하는 방식도 소개했습니다. 
+- 단순히 여러 시스템을 연결하는 것에서 끝나는 것은 아니었습니다.
+  - 연결된 데이터와 문서를 읽어 Search Index와 Vector Embedding을 만들고, Catalog를 구성한 뒤 Ontology Discovery를 통해 서로 다른 Source에 존재하는 개념과 의미를 연결하는 방식도 소개했습니다.
   - 예를 들어 Postgres의 Revenue 테이블과 Notion에 작성된 Revenue 관련 정의를 연결해, Agent가 질문을 받았을 때 필요한 데이터와 비즈니스 정의를 함께 찾을 수 있도록 하는 구조였습니다.
 
 ![Agents Schema prepares agentic context as an open standard 화면](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-241.jpeg)
 
-- 특히 흥미로웠던 부분은 이렇게 만들어진 Context를 특정 서비스 내부에서만 사용하는 것이 아니라, Agent Schema라는 테이블 형태로 데이터 웨어하우스에 저장한다는 점이었습니다. 
+- 특히 흥미로웠던 부분은 이렇게 만들어진 Context를 특정 서비스 내부에서만 사용하는 것이 아니라, Agent Schema라는 테이블 형태로 데이터 웨어하우스에 저장한다는 점이었습니다.
   - 발표에서는 이를 Open하고 Interoperable한 구조라고 설명했는데, Context 자체를 사용자가 소유하고 직접 조회하거나 다른 Agent에서 활용할 수 있도록 하려는 접근이라고 생각합니다.
 
 
 ![데모 화면으로 보이는 Agent Context 인터페이스](../../assets/blog/dbt-summit-2026-03-day-2/dbt-summit-2026-243.jpeg)
 
-- 발표에서는 Trace를 통해 Agent가 어떤 Context를 사용했는지, 정의를 어디에서 가져왔는지, 어떤 실행에서 잘못된 결과가 발생했는지를 확인하는 방향을 소개했습니다. 
+- 발표에서는 Trace를 통해 Agent가 어떤 Context를 사용했는지, 정의를 어디에서 가져왔는지, 어떤 실행에서 잘못된 결과가 발생했는지를 확인하는 방향을 소개했습니다.
   - 또한 Notion의 정의와 dbt Model의 정의가 서로 충돌하거나 아직 매핑되지 않은 용어가 존재하는 경우 이런 Context Gap을 찾아내고 사람이 다시 큐레이션할 수 있도록 하는 기능도 설명했습니다
   - 발표에서는 실제 fivetran에서 개발중인 제품 데모도 보여줬는데, 완성도가 높아서 박수를 많이 받았습니다! (대단)
   - [구글링](https://www.fivetran.com/blog/announcing-fivetran-context-layer)해보니 실제로 announce 된 제품으로 보이네요!
@@ -358,7 +353,7 @@ Agents Schema는 Data Lineage, 문서, Owner 등의 Context까지 모아 AI Agen
   - ⭐⭐ Traces & Evals: Agent의 답변뿐 아니라 사용한 SQL/문서와 Agent가 사용한 가정까지 Warehouse에 기록해 Context 품질을 검증
 
 
---- 
+---
 
 ## 둘째 날 총평
 둘째 날은 하루 전체가 비슷한 주제로 이어지는 느낌이었습니다. 키노트에서는 AI 에이전트 시대에 데이터팀이 제공해야 할 표준과 맥락을 이야기했고, Semantic Layer 세션에서는 그 표준이 왜 다시 중요해졌는지 설명했습니다.
