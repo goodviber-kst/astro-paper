@@ -6,7 +6,7 @@ tags:
   - dbt
   - dbt-summit-2026
   - conference
-draft: true
+draft: false
 ---
 
 3일차는 전날보다 조금 더 실무적인 세션을 많이 들었습니다. 둘째 날에는 dbt의 방향성과 Semantic Layer, Agent Context 같은 큰 흐름을 따라갔다면, 셋째 날에는 각 회사가 이 흐름을 실제 제품과 조직 안에서 어떻게 구현하고 있는지에 더 가까운 내용이 많았습니다.
